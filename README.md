@@ -14,9 +14,14 @@ repositorio privado requiere plan de pago: de ahí que la página viva aparte.
 **La copia buena no es esta.** El original está en el repositorio del juego, en
 `Docs/privacy/index.html`. Edítalo allí y copia el resultado aquí; al revés se pierde.
 
-Y hay un cambio concreto que toca hacer y que no avisa nadie: hoy el texto dice que la
-aplicación no recoge ningún dato, y es verdad porque los anuncios y las compras están
-simulados. **El día que entre una red publicitaria real, esta página tiene que actualizarse
-antes de publicar esa versión** —pasa a recoger y compartir el identificador de publicidad—,
-junto con el formulario de Seguridad de los datos de Play Console. La fecha de «última
-actualización» se mueve con el texto.
+**Actualizado el 3 ago 2026:** el texto ya no dice "no recoge ningún dato" — desde el AAB 8,
+la app usa Firebase Crashlytics y Analytics de verdad (llegó de arrastre al integrar
+Crashlytics, no fue un anuncio real). Se recogen diagnósticos de fallos, métricas de uso e
+identificador de publicidad, detallado en la página.
+
+Y sigue habiendo un cambio pendiente que no avisa nadie: los anuncios y las compras siguen
+simulados. **El día que entre una red publicitaria/de compras real, esta página tiene que
+actualizarse otra vez antes de publicar esa versión** —detallando el proveedor y para qué usa
+el identificador de publicidad, que ya se recoge pero hoy solo para analítica—, junto con el
+formulario de Seguridad de los datos de Play Console. La fecha de «última actualización» se
+mueve con el texto.
