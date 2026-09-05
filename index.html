@@ -33,7 +33,7 @@
 <body>
 
 <h1>Política de privacidad — Colonia Marte</h1>
-<p class="updated">Última actualización: 20 de agosto de 2026</p>
+<p class="updated">Última actualización: 5 de septiembre de 2026</p>
 
 <p>
   Colonia Marte es un juego para Android desarrollado por Pablo Espinoza. Esta política
@@ -59,21 +59,33 @@
     edificios, usar válvulas de escape), sin ningún dato que te identifique personalmente.</li>
   <li>Un identificador de publicidad (Advertising ID) del dispositivo. Se recoge para las
     métricas de arriba y <strong>se usa además para los anuncios</strong>: para elegir cuál
-    mostrarte y para medirlos. Es el único dato que sale hacia empresas que lo tratan para sus
-    propios fines — ver «Publicidad», más abajo.</li>
+    mostrarte y para medirlos.</li>
+  <li><strong>Una comprobación sobre las aplicaciones que tienes instaladas.</strong> El SDK de
+    anuncios (Unity LevelPlay / ironSource) consulta la lista de aplicaciones del teléfono para
+    detectar si hay alguna de tipo VPN, y transmite <em>el resultado de esa comprobación</em>.
+    Lo usa para detectar fraude publicitario. <strong>No se envía la lista de tus
+    aplicaciones</strong>, ni se mira para qué sirven ni cuáles usas: se comprueba una cosa
+    concreta y viaja esa señal.</li>
 </ul>
 <p>
-  Estos datos los procesa Google/Firebase según su propia
-  <a href="https://policies.google.com/privacy">política de privacidad</a>. No incluyen tu
-  nombre, tu correo ni ningún dato que tú escribas dentro del juego — no hay dónde escribirlo:
-  no hay chat, ni perfil, ni campos de texto libres.
+  Los <strong>dos últimos</strong> son los que salen hacia empresas que los tratan
+  <em>para sus propios fines</em> — ver «Publicidad», más abajo. Los <strong>tres
+  primeros</strong> los procesa Google/Firebase por cuenta de este juego, según su propia
+  <a href="https://policies.google.com/privacy">política de privacidad</a>.
+</p>
+<p>
+  Ninguno incluye tu nombre, tu correo ni ningún dato que tú escribas dentro del juego — no hay
+  dónde escribirlo: no hay chat, ni perfil, ni campos de texto libres.
 </p>
 <p>Lo que sigue sin pasar:</p>
 <ul>
   <li>No pide registro, ni crear una cuenta, ni una dirección de correo. Para guardar la
     partida en la nube se apoya en la sesión de Google Play Juegos que ya tenga el teléfono
     —no se te pide iniciar ninguna—, y si no la hay, el juego funciona igual.</li>
-  <li>No accede a los contactos, la cámara, el micrófono, las fotos ni la ubicación.</li>
+  <li>No accede a los contactos, la cámara, el micrófono, las fotos ni a la ubicación del
+    dispositivo: el juego no pide ningún permiso de ubicación y no lee el GPS. Las redes de
+    anuncios sí deducen tu <strong>país o región</strong> a partir de la dirección IP de la
+    conexión, como cualquier servicio de internet — ver «Publicidad».</li>
   <li>No hay ningún dato que tú escribas o subas — no existe dónde hacerlo.</li>
 </ul>
 <p>
@@ -160,6 +172,13 @@
   <li><a href="https://business.safety.google/privacy/">Google, en sus servicios de publicidad</a></li>
 </ul>
 <p>
+  Además, para <strong>protegerse del fraude publicitario</strong>, el SDK de LevelPlay hace en
+  el teléfono la comprobación descrita en «Datos que se recogen»: consulta la lista de
+  aplicaciones instaladas para ver si hay alguna de tipo <strong>VPN</strong> y transmite el
+  resultado. Es una señal antifraude —una respuesta a esa única pregunta—, no un inventario de
+  tus aplicaciones, y no se usa para elegir qué anuncio ves.
+</p>
+<p>
   <strong>Tu consentimiento.</strong> En el Espacio Económico Europeo, el Reino Unido y Suiza
   aparece un formulario de consentimiento —el de Google, <em>User Messaging Platform</em>—
   <strong>antes de que se pida ningún anuncio</strong>, y tu respuesta se transmite a las
@@ -201,7 +220,7 @@
 <hr>
 
 <h1 lang="en">Privacy Policy — Mars Colony</h1>
-<p class="updated" lang="en">Last updated: August 20, 2026</p>
+<p class="updated" lang="en">Last updated: September 5, 2026</p>
 
 <div lang="en">
 <p>
@@ -225,22 +244,32 @@
   <li>Gameplay usage events: what you do inside the game (completing lines, upgrading
     buildings, using escape valves), with no data that personally identifies you.</li>
   <li>A device advertising ID. It is collected for the metrics above and <strong>is also used
-    for advertising</strong>: to pick which ad to show you and to measure it. It is the only
-    piece of data that goes to companies who process it for their own purposes — see
-    "Advertising" below.</li>
+    for advertising</strong>: to pick which ad to show you and to measure it.</li>
+  <li><strong>A check on the apps you have installed.</strong> The ads SDK (Unity LevelPlay /
+    ironSource) queries the phone's list of applications to detect whether any of them is a VPN
+    app, and transmits <em>the result of that check</em>. It uses this to detect ad fraud.
+    <strong>Your list of apps is not sent</strong>, and it is not examined for what your apps do
+    or which ones you use: one specific thing is checked, and that signal is what travels.</li>
 </ul>
 <p>
-  This data is processed by Google/Firebase under its own
-  <a href="https://policies.google.com/privacy">privacy policy</a>. It does not include your
-  name, your email, or anything you type inside the game — there is nowhere to type it: no
-  chat, no profile, no free-text fields.
+  The <strong>last two</strong> are the ones that go to companies who process them <em>for their
+  own purposes</em> — see "Advertising" below. The <strong>first three</strong> are processed by
+  Google/Firebase on this game's behalf, under its own
+  <a href="https://policies.google.com/privacy">privacy policy</a>.
+</p>
+<p>
+  None of them includes your name, your email, or anything you type inside the game — there is
+  nowhere to type it: no chat, no profile, no free-text fields.
 </p>
 <p>What still does not happen:</p>
 <ul>
   <li>It requires no sign-up, no account creation and no email address. To save your game in
     the cloud it relies on whatever Google Play Games session the phone already has — you are
     never asked to start one — and if there is none, the game works just the same.</li>
-  <li>It does not access your contacts, camera, microphone, photos or location.</li>
+  <li>It does not access your contacts, camera, microphone, photos, or the device's location:
+    the game requests no location permission and does not read the GPS. The ad networks do infer
+    your <strong>country or region</strong> from the connection's IP address, as any internet
+    service does — see "Advertising".</li>
   <li>There is no data you type or upload — there is nowhere to do so.</li>
 </ul>
 <p>
@@ -325,6 +354,13 @@
   <li><a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">Unity / LevelPlay</a></li>
   <li><a href="https://business.safety.google/privacy/">Google, for its advertising services</a></li>
 </ul>
+<p>
+  In addition, to <strong>protect itself against ad fraud</strong>, the LevelPlay SDK performs
+  on the phone the check described under "Data collected": it queries the list of installed
+  applications to see whether any of them is a <strong>VPN</strong> app, and transmits the
+  result. It is an anti-fraud signal — an answer to that single question — not an inventory of
+  your apps, and it is not used to choose which ad you see.
+</p>
 <p>
   <strong>Your consent.</strong> In the European Economic Area, the United Kingdom and
   Switzerland, a consent form — Google's <em>User Messaging Platform</em> — appears
